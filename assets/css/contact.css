@@ -1,0 +1,137 @@
+.contact-form {
+  background: url('../images/banner.jpg');
+  background-size: cover;
+  font-family: 'Lato', sans-serif; 
+  background-position: center;
+}
+
+.contact-form .contact-heading{
+    text-align: center;
+    margin-top: 57px;
+}
+.contact-form .contact-heading h1 {
+	text-transform: uppercase;
+    color: #000;
+}
+.contact-form .contact-heading h3 {
+	color: #777;
+	letter-spacing: 3px;
+	margin-top: 40px;
+    font-size: 14px;
+}
+
+#form input[type="text"],
+#form input[type="email"],
+#form input[type="tel"],
+#form input[type="url"],
+#form textarea,
+#form button[type="submit"] {
+  font: 400 12px/16px "Roboto", Helvetica, Arial, sans-serif;
+}
+
+.contact-form #form {
+	padding: 25px;
+	box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+	background-color: #faf5f3;
+	opacity: 0.9;
+	max-width: 600px;
+	margin: 50px auto;
+	border-radius: 30px;
+}
+
+.contact-form #form h3 {
+	display: block;
+	font-size: 22px;
+	font-weight: 300;
+	margin-bottom: 30px;
+	letter-spacing: 1px;
+	text-align: center;
+}
+
+.contact-form fieldset {
+  border: medium none !important;
+  margin: 0 0 10px;
+  min-width: 100%;
+  padding: 0;
+  width: 100%;
+}
+
+#form input[type="text"],
+#form input[type="email"],
+#form input[type="tel"],
+#form input[type="url"],
+#form textarea {
+  width: 100%;
+  border: 1px solid #ccc;
+  background: #FFF;
+  margin: 0 0 5px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+#form input[type="text"]:hover,
+#form input[type="email"]:hover,
+#form input[type="tel"]:hover,
+#form input[type="url"]:hover,
+#form textarea:hover {
+  -webkit-transition: border-color 0.3s ease-in-out;
+  -moz-transition: border-color 0.3s ease-in-out;
+  transition: border-color 0.3s ease-in-out;
+  border: 1px solid #aaa;
+}
+
+.contact-form #form textarea {
+  height: 100px;
+  max-width: 100%;
+  resize: none;
+}
+
+.contact-form #form button[type="submit"] {
+	cursor: pointer;
+	width: 100%;
+	border: none;
+	background: #b51d46;
+	color: #FFF;
+	padding: 10px;
+	font-size: 15px;
+	width: 150px;
+	margin: auto;
+	display: block;
+	border-radius: 20px;
+}
+
+.contact-form #form button[type="submit"]:hover {
+  background: transparent;
+  -webkit-transition: background 0.3s ease-in-out;
+  -moz-transition: background 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
+    border: 2px solid #b51d46;
+    color: #b51d46;
+}
+
+.contact-form #form button[type="submit"]:active {
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+#form input:focus,
+#form textarea:focus {
+  outline: 0;
+  border: 1px solid #aaa;
+}
+
+::-webkit-input-placeholder {
+  color: #888;
+}
+
+:-moz-placeholder {
+  color: #888;
+}
+
+::-moz-placeholder {
+  color: #888;
+}
+
+:-ms-input-placeholder {
+  color: #888;
+}
+  
